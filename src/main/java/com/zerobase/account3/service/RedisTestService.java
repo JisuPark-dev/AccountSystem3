@@ -1,11 +1,9 @@
 package com.zerobase.account3.service;
 
-import com.zerobase.account3.config.LocalRedisConfig;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
